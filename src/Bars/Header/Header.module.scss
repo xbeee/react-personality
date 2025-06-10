@@ -1,0 +1,28 @@
+.header{
+    padding: 15px 0 14px;
+    border-bottom: 1px solid #535353;
+    &Logo{
+        row-gap: 8px;
+        &Img{
+            width: 55px;
+            height: 65px;
+        }
+        &Text{
+            width: 166px;
+        }
+    }
+
+    @media (max-width: 575.96px) {
+        &Logo{
+            row-gap: 4px;
+
+            &Img{
+                width: 31px;
+                height: 36px;
+            }
+            &Text{
+                width: 93px;
+            }
+        }
+    }
+}

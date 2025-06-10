@@ -1,0 +1,176 @@
+.howWork{
+  &Wrapper{
+    padding: 90px 0;
+    background-color: #E8E8E8;
+
+  
+  }
+
+  &Text{
+    max-width: 560px;
+    row-gap: 16px;
+    h2{
+      font-size: 55px;
+      font-weight: 700;
+      color: #000;
+      span{
+        color: #00C865;
+      }
+    }
+    div{
+      font-size: 18px;
+      line-height: 120%;
+      font-weight: 400;
+      span{
+        font-weight: 500;
+        color: #00C865;
+      }
+    }
+  }
+  &Steps{
+    &Wrapper{
+      max-width: 640px;
+      row-gap: 16px;
+      width: 100%;
+    }
+
+    &El{
+      border-radius: 15px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      background: rgb(244, 243, 243);
+      padding: 6px;
+      column-gap: 16px;
+      width: fit-content;
+      align-self: self-end;
+      img{
+        width: 90px;
+        height: 90px;
+      }
+
+      &Text{
+        row-gap: 6px;
+        h1{
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 29px;
+          color: #000;
+          span{
+            color: rgb(0, 200, 101);
+          }
+        }
+        p{
+          color: rgb(0, 0, 0);
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 22px;
+        }
+      }
+
+      &:nth-child(2n-1){
+        align-self: self-start;
+      }
+    }
+  }
+
+  @media (max-width: 1399.96px) and (min-width: 991.96px) {
+    &Wrapper{
+      padding: 65px 0;
+      > div{
+        justify-content: center !important;
+        align-items: self-start !important;
+        column-gap: 20px;
+      }
+    }
+    &Steps{
+     
+      &Wrapper{
+        max-width: 480px;
+      }
+      &El{
+        width: 100%;
+        justify-content: space-between ;
+      }
+    }
+
+    &Text{
+      max-width: 444px;
+      h2{
+        font-size: 36px;
+      }
+    }
+  }
+
+  @media (max-width: 991.96px) and (min-width: 575.96px) {
+    &Wrapper{
+      padding: 40px 0;
+
+      > div{
+        flex-direction: column-reverse;
+        row-gap: 20px;
+      }
+    }
+    &Steps{
+     
+      &Wrapper{
+        max-width: unset;
+      }
+      &El{
+        width: 100%;
+      }
+    }
+
+    &Text{
+      h2{
+        font-size: 24px;
+      }
+    }
+
+  }
+
+  @media (max-width: 575.96px) {
+    &Wrapper{
+      padding: 25px 0;
+
+      > div{
+        flex-direction: column-reverse;
+        row-gap: 20px;
+      }
+    }
+
+    &Text{
+      row-gap: 8px;
+      h2{
+        font-size: 24px;
+      }
+      div{
+        font-size: 12px;
+      }
+    }
+
+    &Steps{
+  
+      &Wrapper{
+        max-width: unset;
+        row-gap: 8px;
+      }
+      &El{
+        column-gap: 10px;
+        width: 100%;
+
+        img{
+          height: 52px;
+          width: 52px;
+        }
+
+        h1{
+          font-size: 18px;
+          line-height: 100%;
+        }
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+
+  }
+}

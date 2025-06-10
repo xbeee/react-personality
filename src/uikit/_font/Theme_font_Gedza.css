@@ -1,0 +1,5 @@
+.Theme_color_Gedza {
+  --font-primary: 'Montserrat', sans-serif;
+  --font-mono: source-code-pro, Menlo, Monaco, Consolas, 'Noto Sans', monospace;
+  font-family: var(--font-primary);
+}

@@ -1,0 +1,138 @@
+.TestPage{
+  &Back{
+    padding-bottom: 30px;
+    color: black;
+    background-color: #F4F3F3;
+    a{
+      color: black;
+    }
+  }
+  &Wrapper{
+    background-color: #F4F3F3;
+    padding: 90px 0;
+    height: 100vh;
+  }
+
+  &Content{
+    row-gap: 45px;
+    max-width: 770px;
+    &Title{
+      font-size: 45px;
+      font-weight: 700;
+      color: black;
+      line-height: 120%;
+
+      &.Small{
+        font-size: 20px;
+        font-weight: 500;
+      }
+      &.Top{
+        margin-bottom: 15px;
+      }
+    }
+
+    &Question{
+      row-gap: 90px;
+
+      &Header{
+        row-gap: 8px;
+       h1{
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
+        line-height: 120%;
+       }
+      }
+      &List{
+        row-gap: 8px;
+        >label{
+          cursor: pointer;
+          column-gap: 8px;
+          p{
+            font-size: 20px;
+            line-height: 150%;
+            color: black;
+            font-weight: 400;
+            @media (max-width: 575.96px) {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      &Bottom{
+        row-gap: 10px;
+        >div{
+          p{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 150%;
+            color: black;
+
+            @media (max-width: 575.96px) {
+              font-size: 14px;
+            }
+          }
+        }
+        &Line{
+          height: 8px;
+          border-radius: 50px;
+          background-color: #C4C4C4;
+          position: relative;
+          width: 100%;
+          &::after{
+            position: absolute;
+            content: "";
+            width: var(--progress, 0);
+            transition: width .3s ease;
+            height: 100%;
+            border-radius: 50px;
+            background-color: #00C865;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 991.96px) and (min-width: 575.96px) {
+    &Wrapper{
+      padding: 45px 0;
+    }
+    &Content{
+      row-gap: 30px;
+      &Title{
+        font-size: 32px;
+      }
+    }
+  }
+
+  
+  @media (max-width: 575.96px) {
+    &Wrapper{
+      padding: 30px 0;
+    }
+    &Content{
+      row-gap: 20px;
+      &Title{
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+.Loading{
+  padding: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+.Image{
+  width: 300px;
+  margin-top: 15px;
+
+  @media (max-width: 575.96px) {
+    width: 100%;
+  }
+}

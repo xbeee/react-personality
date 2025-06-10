@@ -1,0 +1,302 @@
+.TestList{
+
+  &Wrapper{
+    padding: 90px 0;
+    >div{
+      row-gap: 20px;
+    }
+  }
+
+  &Title{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 120%;
+    color: black;
+    span{
+      color: rgba(0, 200, 101, 1.00);
+    }
+  }
+
+  &Content{
+    &List{
+      max-width: 500px;
+      max-height: 501px;
+      row-gap: 16px;
+      background-color: #F4F3F3;
+      border-radius: 20px;
+      padding: 15px;
+      overflow: auto;
+      scrollbar-width: none;
+      &::-webkit-scrollbar-thumb, &::-webkit-scrollbar-track{
+        width: 0;
+      }
+      &El{
+        width: 100%;
+        padding: 12px;
+        background-color: #FFFFFF;
+        border: 2px solid #838383;
+        border-radius: 20px;
+        box-shadow: -2px -2px 4px 0px rgba(0, 0, 0, 0.25),0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        row-gap: 5px;
+        transition: .2s;
+        &Line{
+          width: 223px;
+          height: 1px;
+          background: linear-gradient(90.00deg, rgb(0, 0, 0) 0%,rgba(0, 0, 0, 0) 100%);
+        }
+        &Header{
+          column-gap: 10px;
+          &Pic{
+            width: 100%;
+            max-width: 50px;
+            img{
+              width: 100%;
+            }
+          }
+          &Text{
+            row-gap: 8px;
+            h1{
+              font-weight: 700;
+              font-size: 18px;
+            }
+            p{
+              font-size: 14px;
+              font-weight: 400;
+            }
+          }
+        }
+        &Bottom{
+          column-gap: 20px;
+          &El{
+            column-gap: 5px;
+            p{
+              font-size: 12px;
+              line-height: 120%;
+            }
+          }
+        }
+        &Active{
+          border: 2px solid #00C865;
+          box-shadow: 2px 2px 4px 0px rgba(6, 201, 104, 0.3),-2px -2px 4px 0px rgba(6, 201, 104, 0.3);
+        }
+      }
+    }
+
+    &Info{
+      background-color: white;
+      padding: 20px;
+      border-radius: 20px;
+      row-gap: 8px;
+      &Wrapper{
+        background-color: #F4F3F3;
+        padding: 21px;
+        border-radius: 20px;
+        max-width: 750px;
+        height: fit-content;
+      }
+      &Title{
+        font-size: 36px;
+        line-height: 100%;
+        font-weight: 700;
+        color: black;
+      }
+      &Description{
+        font-size: 20px;
+        line-height: 120%;
+        font-family: "Inter", sans-serif;
+        max-width: 470px;
+      }
+      &Flex{
+        row-gap: 10px;
+        max-width: 590px;
+        &El{
+          column-gap: 8px;
+          &Text{
+            row-gap: 4px;
+            h2{
+              font-weight: 700;
+              font-family: "Montserrat", sans-serif;
+              font-size: 16px;
+              color: black;
+              line-height: 120%;
+            }
+            p{
+              font-weight: 400;
+              font-family: "Montserrat", sans-serif;
+              font-size: 14px;
+              color: black;
+              line-height: 120%;
+            }
+          }
+          img{
+            width: 32px;
+            height: 32px;
+          }
+        }
+      }
+      &Btn{
+        margin-top: 10px;
+      }
+    }
+  }
+  @media (min-width: 991.96px) and (max-width: 1399.96px){
+    &Wrapper{
+      padding: 65px 0;
+    }
+    &Title{
+      font-size: 28px;
+    }
+    &Content{
+      flex-direction: row-reverse !important ;
+
+      &Info{
+        &Wrapper{
+          padding: 12px;
+        }
+        &Title{
+          font-size: 24px;
+        }
+        &Description{
+          font-size: 16px;
+        }
+      }
+      &List{
+        padding: 11px;
+        max-width: 290px;
+        max-height: 458px;
+        &El{
+   
+          &Header{
+            align-items: center;
+            &Text{
+              h1{
+                font-size: 16px;
+              }
+              p{
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 991.96px) and (min-width: 575.96px) {
+   
+    &Wrapper{
+      padding: 40px 0;
+      >div{
+        row-gap: 10px;
+      }
+    }
+    &Title{
+      font-size: 24px;
+    }
+    &Content{
+      row-gap: 8px;
+      &Info{
+        padding: 16px;
+        &Wrapper{
+          padding: 6px;
+        }
+        &Title{
+          font-size: 18px;
+        }
+        &Description{
+          font-size: 14px;
+        }
+      }
+      &List{
+        padding: 10px;
+        max-width: 100%;
+        max-height: 250px;
+        &El{
+   
+          &Header{
+            align-items: center;
+            &Text{
+              h1{
+                font-size: 16px;
+              }
+              p{
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 575.96px) {
+
+    &Wrapper{
+      padding: 25px 0;
+      >div{
+        row-gap: 8px;
+      }
+    }
+    &Title{
+      font-size: 20px;
+    }
+    &Content{
+      row-gap: 10px;
+      &Info{
+        padding: 16px;
+        &Wrapper{
+          padding: 6px;
+        }
+        &Title{
+          font-size: 18px;
+        }
+        &Description{
+          font-size: 14px;
+        }
+        &Flex{
+          &El{
+            &Text{
+              h2{
+                font-size: 12px;
+              }
+              p{
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+      &List{
+        padding: 10px;
+        max-width: 100%;
+        max-height: 250px;
+        row-gap: 10px;
+        &El{
+   
+          &Header{
+            align-items: center;
+            &Text{
+              h1{
+                font-size: 12px;
+              }
+              p{
+                font-size: 12px;
+              }
+            }
+          }
+          
+        }
+      }
+    }
+  }
+}
+
+.TestResultText{
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  line-height: 130%;
+
+  span{
+    font-weight: 700;
+  }
+}

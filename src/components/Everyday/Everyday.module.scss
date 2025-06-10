@@ -1,0 +1,80 @@
+.Everyday{
+  &Wrapper{
+    padding: 90px 0;
+    >div{
+      row-gap: 15px;
+      align-items: center;
+      h1{
+        font-size: 55px;
+        line-height: 120%;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        span{
+          color: #0CC96B;
+        }
+      }
+      p{
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 110%;
+        span{
+          color: #0CC96B;
+        }
+      }
+      img{
+        max-height: 265px;
+      }
+    }
+  }
+  
+
+  @media (min-width: 991.96px) and (max-width: 1399.96px){
+    &Wrapper{
+      padding: 65px 0;
+      >div{
+  
+        h1{
+          font-size: 48px;
+        }
+        p{
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 991.96px) and (min-width: 575.96px) {
+   
+    &Wrapper{
+      padding: 40px 0;
+      >div{
+        row-gap: 8px;
+        h1{
+          font-size: 24px;
+        }
+        p{
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  @media (max-width: 575.96px) {
+
+    &Wrapper{
+      padding: 25px 0;
+      >div{
+        row-gap: 8px;
+        h1{
+          font-size: 20px;
+        }
+        p{
+          font-size: 18px;
+        }
+        img{
+          max-height: 169px;
+        }
+      }
+    }
+  }
+}

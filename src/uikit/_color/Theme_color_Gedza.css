@@ -1,0 +1,121 @@
+/* Базовые цвета, от которых выстраивается вся палитра */ /* Базовый цвет содержимого, от которого выстраиваются цвета текста, иконок, ... */ /* Базовый цвет поверхностей */ /* Проектный цвет, от которого выстраивают акцентные состояния */ /* Тонирующий цвет, от которого выстраиватся бордеры, оверлей под модальными окнами, ... */ /* Цвет ссылок и контролов, от которого выстраиваются все их состояния */ /* Цвет системнный */ /* Цвет тени */ /* Цвет успеха */ /* Цвет ошибки */ /* Цвет предупреждения */ /* Цвет осторожности */ /* Цвет нейтральный */
+
+/* stylelint-disable */
+.Theme_color_Gedza {
+	/* //////////////////////////////// Цвета фонов /////////////// */
+	--color-bg-default: #ffffff; /* Цвет дефолта */
+	--color-bg-secondary: rgb(236, 241, 244); /* Цвет дефолта */
+	--color-bg-brand: rgba(207, 28, 29, 1); /* Цвет фона брендированый */
+	--color-bg-link: rgba(207, 28, 29, 1); /* Цвет фона ссылки */
+	--color-bg-border: rgba(0, 65, 102, 0.2); /* Цвет границ */
+	--color-bg-stripe: #fff; /* Цвет зебры (например, при окрашивании фона строк таблицы через одну) */
+
+	--color-bg-ghost: rgba(0, 32, 51, 0.08); /* Цвет затенения */
+	--color-bg-tone: rgba(0, 32, 51, 0.85); /* Цвет паранджи */
+	--color-bg-soft: rgba(255, 255, 255, 0.9); /* Цвет молока */
+	--color-bg-system: rgb(222, 228, 232); /* Цвет фона системнный */
+
+	--color-bg-normal: rgb(86, 185, 242); /* Цвет фона нейтральный */
+	--color-bg-success: rgb(34, 195, 142); /* Цвет фона успеха */
+	--color-bg-caution: rgb(242, 201, 76); /* Цвет фона осторожности */
+	--color-bg-warning: rgb(243, 139, 0); /* Цвет фона предупреждения */
+	--color-bg-alert: rgb(235, 87, 87); /* Цвет фона ошибки */
+	--color-bg-critical: rgb(51, 0, 15); /* Цвет фона системнный */
+
+	/* //////////////////////////////
+	// Цвета текста ////////////// */
+	--color-typo-primary: #111111; /* Цвет основного текста */
+	--color-typo-secondary: #282828; /* Цвет второстепенного текста */
+	--color-typo-ghost: rgba(0, 65, 102, 0.2); /* Цвет дополнительного текста */
+	--color-typo-brand: rgb(255, 112, 0); /* Цвет брендового текста */
+	--color-typo-system: rgb(151, 178, 196); /* Цвет фона системнный */
+
+	--color-typo-normal: rgb(50, 180, 255); /* Цвет фона нейтральный */
+	--color-typo-success: rgb(9, 179, 123); /* Цвет текста успеха */
+	--color-typo-caution: rgb(255, 161, 10); /* Цвет текста осторожности */
+
+	--color-typo-warning: rgb(235, 109, 0); /* Цвет текста предупреждения */
+
+	--color-typo-alert: rgb(235, 51, 51); /* Цвет текста ошибки */
+	--color-typo-critical: rgb(51, 0, 15); /* Цвет фона системнный */
+	--color-typo-link: rgb(0, 120, 210); /* Цвет основной ссылки */
+	--color-typo-link-minor: rgb(28, 86, 130); /* Цвет второстепенной ссылки */
+	--color-typo-link-hover: rgb(0, 142, 250); /* Цвет ховера ссылки */
+
+	/* //////////////////////////////
+	// Цвета скроллбара ////////////// */
+	--color-scroll-bg: rgba(0, 66, 105, 0.06);
+	--color-scroll-thumb: rgba(0, 66, 105, 0.24);
+	--color-scroll-thumb-hover: rgba(0, 66, 105, 0.32);
+
+	/* /////////////////////////////
+	// Цвета контролов /////////// */
+
+	/* Default */
+	--color-control-bg-default: #ffffff; /* Цвет фона контрола */
+	--color-control-typo-default: #111111; /* Цвет основного текста контрола */
+	--color-control-typo-placeholder: #B6B6B6; /* Цвет плейсхолдера контрола */
+	--color-control-bg-border-default: #B6B6B6; /* Цвет фона бордеров котрола */
+
+	--color-control-bg-border-default-hover: #B6B6B6; /* Цвет фона бордеров контрола по ховеру */
+
+	--color-control-bg-border-focus: #B6B6B6; /* Цвет аутлайна контролов при фокусе */ /* TODO заменить на правило целиком */
+	--color-control-bg-focus: rgba(0, 120, 210, 0.3); /* !* Цвет тени в состонии фокуса *!*/
+	--color-control-bg-active: rgba(0, 65, 102, 0.2); /* Цвет тени в состонии нажатия  */
+
+	/* Primary */
+	--color-control-bg-primary: rgba(0, 200, 101, 1.00); /* Цвет фона активного контрола */
+	--color-control-bg-primary-hover: rgb(2, 177, 90); /* Цвет фона активного контрола по ховеру */
+
+	--color-control-typo-primary: rgb(255, 255, 255); /* Цвет акцентного текста */
+	--color-control-typo-primary-hover: rgb(255, 255, 255); /* Цвет акцентного текста */
+
+	/* Secondary */
+	--color-control-bg-secondary: rgba(255, 255, 255, 1); /* Цвет фона бордеров котрола */
+	--color-control-bg-secondary-hover: rgba(207, 28, 29, 1); /* Цвет фона бордеров котрола */
+	--color-control-bg-border-secondary: rgba(207, 28, 29, 1); /* Цвет фона бордеров котрола */
+
+	--color-control-bg-border-secondary-hover: rgba(207, 28, 29, 1); /* Цвет фона бордеров контрола по ховеру */
+	--color-control-typo-secondary: rgba(207, 28, 29, 1);
+	--color-control-typo-secondary-hover: rgba(207, 28, 29, 1);
+	/* Ghost */
+	--color-control-bg-ghost: rgba(244, 245, 247, 1); /* Цвет фона дополнительного контрола */
+
+	--color-control-bg-ghost-hover: rgba(244, 245, 247, .8); /* Цвет фона дополнительного контрола по ховеру */
+
+	--color-control-typo-ghost: #111111; /* Цвет дополнительного текста контрола */
+
+	--color-control-typo-ghost-hover: rgb(0, 32, 51); /* Цвет акцентного текста */
+
+	/* Clear */
+	--color-control-bg-clear: rgb(255, 255, 255); /* Цвет фона чистого контрола */
+	--color-control-bg-clear-hover: rgba(227, 227, 227, 0.2); /* Цвет фона чистого контрола по ховеру */
+
+	--color-control-typo-clear: rgba(17, 17, 17, 1); /* Цвет акцентного текста */
+
+	--color-control-typo-clear-hover: rgba(17, 17, 17, 0.8); /* Цвет акцентного текста */
+
+	/* Disable */
+	--color-control-bg-disable: rgba(0, 66, 105, 0.07); /* Цвет фона неактивного контрола */
+	--color-control-bg-border-disable: rgba(236, 241, 244, 1); /* Цвет фона бордеров неактивного контрола */
+
+	--color-control-typo-disable: rgba(0, 65, 102, 0.2); /* Цвет основного текста неактивного контрола */
+
+	/* /////////// Цвета тени /////////// */
+	--color-shadow-group-1: rgba(0, 32, 51, 0.02);
+	--color-shadow-group-2: rgba(0, 32, 51, 0.16);
+	--color-shadow-layer-1: rgba(0, 32, 51, 0.04);
+	--color-shadow-layer-2: rgba(0, 32, 51, 0.12);
+	--color-shadow-modal-1: rgba(0, 32, 51, 0.04);
+	--color-shadow-modal-2: rgba(0, 32, 51, 0.12);
+
+	--button-bg-color: var(--color-control-bg-primary);
+	--button-bg-color-hover: var(--color-control-bg-primary-hover);
+	--button-color: var(--color-control-typo-primary);
+	--button-color-hover: var(--color-control-typo-primary-hover);
+	--button-border: transparent;
+	--button-bg-color-disable: var(--color-control-bg-disable);
+	--button-color-disable: var(--color-control-typo-disable);
+}
+
+/* stylelint-enable */
