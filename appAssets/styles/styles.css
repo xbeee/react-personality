@@ -1,0 +1,23 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: unset;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+@media (min-width: 576px) {
+  .container {
+    padding: 0;
+  }
+}
+.TextField-InputContainer_view_default {
+  border: 1px solid var(--container-border-color) !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
