@@ -1,0 +1,13 @@
+<svg width="56.295654" height="65.322510" viewBox="0 0 56.2957 65.3225" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip3_2">
+			<rect id="logo" width="56.295650" height="65.322578" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip3_2)">
+		<path id="path" d="M5.36 52.1L5.36 19.48L28.14 6.27L50.93 19.48L50.93 45.83L28.14 59.05L16.08 52.05L16.08 25.8L28.14 18.8L40.21 25.8L40.21 39.51L28.14 46.51L26.8 45.73L26.8 32.12L33.54 28.21L28.14 25.07L21.44 28.96L21.44 48.89L28.14 52.78L45.57 42.67L45.57 22.64L28.14 12.54L10.72 22.64L10.72 55.21L28.14 65.32L56.29 48.99L56.29 16.33L28.14 0L0 16.33L0 48.99L5.36 52.1Z" fill="#00C865" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

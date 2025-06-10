@@ -1,0 +1,18 @@
+<svg width="90.000000" height="90.000000" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient x1="45.000000" y1="0.000000" x2="45.000000" y2="90.000000" id="paint_linear_14_4_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#1DE381"/>
+			<stop offset="1.000000" stop-color="#00C865"/>
+		</linearGradient>
+		<linearGradient x1="45.000000" y1="23.000000" x2="45.000000" y2="67.000000" id="paint_linear_22_6_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#00C865"/>
+			<stop offset="1.000000" stop-color="#00C865"/>
+		</linearGradient>
+	</defs>
+	<path id="Многоугольник 2" d="M45 0L9.81 16.94L1.12 55.01L25.47 85.54L64.52 85.54L88.87 55.01L80.18 16.94L45 0Z" fill="#F4F3F3" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Многоугольник 2" d="M9.81 16.94L1.12 55.01L25.47 85.54L64.52 85.54L88.87 55.01L80.18 16.94L45 0L9.81 16.94ZM15.02 21.09L7.62 53.53L28.36 79.54L61.63 79.54L82.37 53.53L74.97 21.09L45 6.65L15.02 21.09Z" fill="url(#paint_linear_14_4_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="1" d="M44.3 31.81L49.5 31.81L49.5 58L43.98 58L43.98 37.07L43.82 37.07L37.82 40.83L37.82 35.92L44.3 31.81Z" fill="url(#paint_linear_22_6_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>
